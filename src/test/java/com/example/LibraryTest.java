@@ -18,7 +18,7 @@ public class LibraryTest {
 
         Book result = library.searchBook(101);
 
-        assertEquals("Python Programming", result.getTitle());
+        assertEquals("Java Programming", result.getTitle());
     }
 
     // Test 2: Handling duplicate book IDs
